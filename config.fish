@@ -10,10 +10,17 @@ set -U FZF_REVERSE_ISEARCH_OPTS "--reverse --height=100%"
 # k8s
 alias k 'kubectl'
 alias kg 'k get'
+alias ka 'k apply'
+alias kaf 'ka -f'
+alias kd 'k delete'
+alias ke 'k iexec'
 alias kgp 'kg pod'
+alias kgpw 'kgp -owide'
+alias kgn 'kg node'
+alias kgnw 'kgn -owide'
 alias kctx 'kubectx'
 alias kns 'kubens'
-alias kaf 'k apply -f'
+alias ksp 'k status pod'
 
 # qmk
 set -g fish_user_paths "/usr/local/opt/avr-gcc@7/bin" $fish_user_paths
