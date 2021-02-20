@@ -1,5 +1,5 @@
 *.secret.fish
 /conf.d/*
 /functions/*
-!/functions/fisher.fish
+/completions/*
 !/functions/fish_prompt.fish
