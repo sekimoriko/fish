@@ -1,6 +1,6 @@
 # secret
-if test -f ~/.config/fish/*.secret.fish
-    source ~/.config/fish/*.secret.fish
+if test -f ~/.config/fish/config.secret.fish
+    source ~/.config/fish/config.secret.fish
 end
 
 # fzf
